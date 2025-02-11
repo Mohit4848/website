@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing:border-box;
+    font-family: outfit;
+}
+body{
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d77c1;
+    padding: 10px 20px;
+    color: #fff;
+    gap: 8px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-btn {
+    background-color: #fff;
+    color: #1a1919;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    gap: 2px;
+    border: none;
+    cursor: auto;
+}
+.nav-search{
+    flex:1;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    width: 1000px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.nav-search button {
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-search button:hover {
+
+    background-color: #004494;
+}
+
+.nav-search input{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 100%;
+    height: 35px; 
+    border-radius: 20px;
+}
+.nav-search input:focus{
+    outline: 3px solid #000000;
+}
+.dropdown-content {
+    display: none;
+    background-color: #928a8a;
+    position:absolute;
+    min-width: 50px;
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-btn:hover{
+    background-color: #b8b0b0 ;
+}
+main {
+    padding: 20px;
+}
+#job-listings {
+    margin-top: 20px;
+}
+
+.job-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+    margin: 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.dropdown-btn:hover .dropdown-content { display:block;}
+.dropdown-content a:hover{background-color: #807f7f}
+
+  

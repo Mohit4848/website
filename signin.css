@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing:border-box;
+    font-family: outfit;
+}
+body{
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    text-align: center;
+}
+
+.signin-container, .signup-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.signin-title, .signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #2d77c1;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2d77c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a5fa6;
+}
+
+.signin-condition{
+    font-size: 12px;
+}
+
+.signin-condition span{
+    color: #0066c0;
+}
+
+.signin-help{
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.signin-help span{
+    color: #0066c0;
+}
+
+.signin container hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+
+.signin-container h4{
+    margin: 15px;
+    font-size: 13px;
+}
+
+.signin-buisness{
+    font-size: 13px;
+}
+
+.signin-buisness span{
+    color: #0066c0;
+}
+
+.signin-bottom{
+    max-width: 350px;
+    font-size: 13px;
+    color: #737373;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.signin-bottom hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+    width: 110px;
+}
+
+.signin-signup-btn{
+    width: 350px;
+    height: 46px;
+    color: black;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+
+.signin-signup-btn:hover{
+    background: #f1f1f1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
